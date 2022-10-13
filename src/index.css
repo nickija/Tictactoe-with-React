@@ -1,0 +1,79 @@
+
+body {
+  background-color: rgb(242, 247, 228);
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.big-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 2px;
+  padding: 20px;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  margin-bottom: 20px;
+
+  background-color: rgb(163, 216, 216);
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.box-container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 20px;
+  width: 1px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 1px 2px 1px ;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.box:active{
+  box-shadow:inset 0px 0px 2px 1px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button{
+  background-color: rgb(36, 102, 102);
+  border-radius: 5px;
+  font: 1.2em sans-serif;
+  height: 3em;
+  width: 7em;
+  margin-top: 1em;
+  cursor: pointer;
+  color: aliceblue;
+}
+.reset-button:active{
+  box-shadow:inset 0px 0px 2px 1px;
+}
+
+
